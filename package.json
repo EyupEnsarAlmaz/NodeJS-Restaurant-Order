@@ -1,12 +1,16 @@
 {
   "dependencies": {
-    "bcrypt": "^5.1.1",
-    "dotenv": "^16.4.5",
+    "@hapi/joi": "^17.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
     "express": "^4.19.2",
     "express-async-errors": "^3.1.1",
-    "jsonwebtoken": "^9.0.2",
+    "http-status-codes": "^2.3.0",
+    "joi": "^17.12.3",
     "mongoose": "^8.3.0",
-    "nodemon": "^3.1.0"
+    "nodemon": "^3.1.0",
+    "redis": "^4.6.13",
+    "socket.io": "^4.7.5"
   },
   "name": "nodejs-restaurant-order",
   "version": "1.0.0",
